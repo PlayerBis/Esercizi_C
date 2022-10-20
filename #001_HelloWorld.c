@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    // stampo hello world
+    // stampo
     printf("Hello World\n");
 
     return 0;
