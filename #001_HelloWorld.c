@@ -1,5 +1,5 @@
 /**
- * Scrivi un progamma che stampi "Hello World"
+ *  Scrivi un progamma che stampi "Hello World"
  */
 
 #include <stdio.h>
