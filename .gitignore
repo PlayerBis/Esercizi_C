@@ -1,3 +1,4 @@
 Tutorial
 *.exe
-.DS_Store
+.DS_Stores
+*_Temp.c
