@@ -1,5 +1,5 @@
 /**
- *  Matrice di numeri ordinata con:
+ *  Stampa una matrice di numeri ordinata 3 x 3 con:
  *      "\n" = new line
  *      "\t" = tab
  */
