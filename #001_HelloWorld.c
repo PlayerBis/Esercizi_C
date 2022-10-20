@@ -1,4 +1,4 @@
-// Scrivo un programma che stampi: "Hello World"
+// Stampo "Hello World"
 
 #include <stdio.h>
 
