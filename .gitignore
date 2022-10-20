@@ -2,3 +2,4 @@ Tutorial
 *.exe
 .DS_Store
 *_Temp.c
+.vscode
