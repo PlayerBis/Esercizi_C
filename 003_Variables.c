@@ -4,6 +4,8 @@
 
 #include <stdio.h>
 
+#define EXIT_SUCCESS 0
+
 int main() {
     int età = 34;             //  Numero intero
     float altezza = 1.86;     //  Numero decimale
@@ -15,5 +17,5 @@ int main() {
     printf("La tua altezza è di %f cm.\n", altezza);     //  Float
     printf("Il voto con cui sei uscito è: %c\n", voto);  //  Carattere
 
-    return 0;
+    return EXIT_SUCCESS;
 }

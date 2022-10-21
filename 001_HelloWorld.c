@@ -4,9 +4,11 @@
 
 #include <stdio.h>
 
+#define EXIT_SUCCESS 0
+
 int main() {
     // stampo
     printf("\nHello World\n");
 
-    return 0;
+    return EXIT_SUCCESS;
 }

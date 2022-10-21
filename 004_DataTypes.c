@@ -5,6 +5,8 @@
 #include <stdbool.h>  // Per il tipo di dato bool
 #include <stdio.h>
 
+#define EXIT_SUCCESS 0
+
 int main() {
     char a = 'C';          //  carattere singolo    %c
     char b[] = "Emanuel";  //  array di caratteri   %s
@@ -40,5 +42,5 @@ int main() {
     printf("long long int l: %lld\n", l);
     printf("unsigned long long int m: %llu\n\n", m);
 
-    return 0;
+    return EXIT_SUCCESS;
 }

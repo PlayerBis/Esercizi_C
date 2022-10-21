@@ -6,8 +6,10 @@
 
 #include <stdio.h>
 
+#define EXIT_SUCCESS 0
+
 int main() {
     printf("\n1\t2\t3\n4\t5\t6\n7\t8\t9\n");
 
-    return 0;
+    return EXIT_SUCCESS;
 }
