@@ -1,5 +1,10 @@
 /**
- * Tutti i tipi di dato
+ * Stampa tutti i tipi di dato
+ *
+ *  Alcuni specificatori
+ *  %.1 =   precisione decimale
+ *  %1  =   spaziatura
+ *  %-  =   allineato a sinistra
  */
 
 #include <stdbool.h>  // Per il tipo di dato bool
