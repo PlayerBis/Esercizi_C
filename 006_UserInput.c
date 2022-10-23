@@ -11,7 +11,7 @@ int main() {
     char nome[25];
 
     printf("\nCome ti chiami? ");
-    //  Con le stringhe posso non usare l'indirizzo di memoria
+    // Con le stringhe posso non usare l'indirizzo di memoria
     // scanf("%s", nome);
     fgets(nome, 25, stdin);  //  Prende anche gli spazi (variabile, dimensione, stdinputstream)
 
