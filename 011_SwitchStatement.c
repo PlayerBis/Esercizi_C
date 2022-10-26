@@ -16,7 +16,7 @@ int main() {
     switch (grade) {
         case 'A':
             printf("\nPerfetto!\n\n");
-            break;
+            break;  //  si usa per interrompere le istruzioni in un blocco
         case 'B':
             printf("\nOttimo!\n\n");
             break;
@@ -32,7 +32,7 @@ int main() {
         case 'F':
             printf("\nNon hai studiato nulla. \n\n");
             break;
-        default:
+        default:  //  non ha bisogno del break, controlla tutti gli altri casi
             printf("\nPerfavore inserisci un voto valido.\n\n");
     }
 
