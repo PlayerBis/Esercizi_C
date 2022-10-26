@@ -15,18 +15,20 @@ int main() {
     printf("\nLa temperatura da convertire è in gradi Celsius (C) o Fahrenheit (F)?: ");
     scanf("%c", &unità);
 
+    unità = toupper(unità);
+
     if (unità == 'C') {
-        printf("\nInserisci la temperatura: ");
+        printf("\nInserisci la temperatura in Celsius: ");
         scanf("%f", &temp);
-        tempConvertita = (temp * 1.8) + 32;
-        printf("\n%.2f°C = %.2f°F\n", temp, tempConvertita);
+        tempConvertita = (temp * 1.8) + 32;  //  Converto da C a F
+        printf("\n%.1f°C = %.1f°F\n", temp, tempConvertita);
     } else if (unità == 'F') {
-        printf("\nInserisci la temperatura: ");
+        printf("\nInserisci la temperatura in Fahrenheit: ");
         scanf("%f", &temp);
-        tempConvertita = (temp - 32) / 1.8;
-        printf("\n%.2f°F = %.2f°C\n", temp, tempConvertita);
+        tempConvertita = (temp - 32) / 1.8;  //  Converto da F a C
+        printf("\n%.1f°F = %.1f°C\n", temp, tempConvertita);
     } else {
-        printf("\nCarattere non valido, inserire (F) o (C).\n");
+        printf("\n %c non è un carattere valido, inserire (F) o (C).\n", unità);
     }
 
     return EXIT_SUCCESS;
