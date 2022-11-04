@@ -1,2 +1,0 @@
-
-            printf("\nTentativi:   %d", tentativi);
